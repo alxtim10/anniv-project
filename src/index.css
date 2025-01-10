@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: rgb(22, 22, 22);
+}
+
+.font-base {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
