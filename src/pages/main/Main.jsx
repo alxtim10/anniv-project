@@ -1,7 +1,10 @@
+import Hero from "../../components/hero/Hero"
 
 const Main = () => {
   return (
-    <div className="text-white">Main</div>
+    <section className="bg-[#e5e4e3]">
+      <Hero />
+    </section>
   )
 }
 
