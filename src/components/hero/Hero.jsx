@@ -1,4 +1,5 @@
 
+import React from 'react'
 const Hero = () => {
     return (
         <section className='min-h-screen flex flex-col items-center justify-center gap-14'>

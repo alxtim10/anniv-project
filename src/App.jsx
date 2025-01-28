@@ -1,3 +1,4 @@
+import React from 'react'
 import './components/carousel/embla.css'
 import RoutesIndex from "./routes";
 

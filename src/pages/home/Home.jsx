@@ -3,6 +3,7 @@ import HomeCarousel from '../../components/carousel/HomeCarousel'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { useState } from 'react'
 import Modal from '../../components/modal/Modal'
+import React from 'react'
 
 const Home = () => {
 
@@ -35,7 +36,7 @@ const Home = () => {
             >
                 <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
                     <DialogPanel className="max-w-lg space-y-4">
-                       <Modal setIsOpen={setIsOpen}/>
+                        <Modal setIsOpen={setIsOpen} />
                     </DialogPanel>
                 </div>
             </Dialog>
