@@ -3,7 +3,7 @@ import React from 'react'
 const Fourth = () => {
     return (
         <div className='mt-20'>
-            <h1 className='font-bold'>Title</h1>
+            <h1 className='font-bold'>Highlights</h1>
             <div className='w-full h-64 bg-red-500 rounded-lg mt-5'></div>
             <div className='flex items-center justify-center gap-3'>
                 <div className='w-full h-64 bg-orange-500 rounded-lg mt-5'></div>

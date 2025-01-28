@@ -9,7 +9,7 @@ import Sixth from './sixth/Sixth'
 
 const Main = () => {
   return (
-    <section className="bg-[#e5e4e3] p-5">
+    <section className="bg-[#e5e4e3] p-5 pb-20">
       <Hero />
       <First />
       <Second />
