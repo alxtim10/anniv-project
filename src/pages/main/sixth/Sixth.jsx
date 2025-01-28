@@ -5,7 +5,7 @@ const Sixth = () => {
         <div className='mt-20'>
             <h1 className='font-bold text-center text-lg'>7th January 2024</h1>
             <div className='flex items-center justify-center mt-7'>
-                <img src='/public/images/2.HEIC' className='w-1/2 h-full bg-slate-300 rounded-lg mt-2 object-cover'></img>
+                <img src='/images/2.HEIC' className='w-1/2 h-full bg-slate-300 rounded-lg mt-2 object-cover'></img>
             </div>
             <p className='px-7 text-center mt-10 font-semibold'>
             In just one year, we’ve created a bond that feels unbreakable, and I’m so excited for everything that lies ahead. 

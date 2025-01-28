@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="flex flex-col items-center justify-center gap-2 
                 bg-white p-2 pb-5 rounded-md border border-gray-300 shadow-md rotate-6
                 translate-x-4 hover:translate-x-0 hover:rotate-0 transition-all">
-                    <img src='/public/images/1.HEIC' className="w-[10rem] h-48 object-cover"></img>
+                    <img src='/images/1.HEIC' className="w-[10rem] h-48 object-cover"></img>
                     <h1 className="font-bold text-sm mt-1 text-gray-600">Timo Thania</h1>
                 </div>
             </div>
