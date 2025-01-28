@@ -29,7 +29,7 @@ const WalkingCarousel = (props) => {
                     {slides.map((index) => (
                         <div className="embla__slide" key={index}>
                             <div className="embla__slide__number">
-                                <div className='w-full h-64 bg-blue-300 rounded-lg'></div>
+                                <img src={index} className='w-full h-64 object-cover rounded-lg'></img>
                             </div>
                         </div>
                     ))}
