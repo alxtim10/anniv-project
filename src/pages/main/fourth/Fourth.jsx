@@ -15,10 +15,10 @@ const Fourth = () => {
                 <img src='/images/25.jpeg' className='w-64 rotate-3 h-full object-cover rounded-lg mt-5'></img>
             </div>
             <div className='flex items-center justify-center gap-3'>
-                <div className='w-full h-64 bg-orange-500 rounded-lg mt-5'></div>
-                <div className='w-full h-64 bg-orange-300 rounded-lg mt-5'></div>
+                <img src='/images/35.jpg' className='w-full h-64 object-cover rounded-lg mt-5'></img>
+                <img src='/images/36.jpg' className='w-full h-64 object-cover rounded-lg mt-5'></img>
             </div>
-            <div className='w-full h-64 bg-red-500 rounded-lg mt-5'></div>
+            <img src='/images/37.jpg' className='w-full h-64 object-cover rounded-lg mt-5'></img>
         </div>
     )
 }

@@ -12,6 +12,8 @@ const Home = () => {
     const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
     let [isOpen, setIsOpen] = useState(false)
 
+    const number = [26, 27, 28, 29, 30, 31, 32, 33, 34];
+
     return (
         <section className="min-h-screen font-base ">
             <Frame />
@@ -23,7 +25,7 @@ const Home = () => {
                     <div className="w-3 h-3 border-t border-r border-red-600 absolute top-0 right-0"></div>
                     <div className="w-3 h-3 border-b border-r border-red-600 absolute bottom-0 right-0"></div>
                 </div>
-                <HomeCarousel slides={SLIDES} options={OPTIONS} />
+                <HomeCarousel slides={number} options={OPTIONS} />
                 <h1
                     onClick={() => setIsOpen(true)}
                     className="cursor-pointer absolute bottom-20 bg-transaprent border border-white text-white text-sm px-5 py-3 hover:bg-white hover:text-black transition-all">See Memories</h1>

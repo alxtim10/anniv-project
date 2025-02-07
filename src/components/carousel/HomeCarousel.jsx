@@ -73,7 +73,7 @@ const HomeCarousel = (props) => {
                         <div className="embla__slide min-w-0" key={index}>
                             <img
                                 className="embla__slide__img"
-                                src={`https://picsum.photos/600/350?v=${index}`}
+                                src={`/images/${index}.jpeg`}
                                 alt="Your alt text"
                             />
                         </div>
